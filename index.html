@@ -1,0 +1,298 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>CogniWave</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="index.html" class="nav__logo"><i class='bx bx-window-alt nav__logo-icon'></i>CogniWave</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#featured" class="nav__link">Featured</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Products</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#newsletter" class="nav__link">Subscribe</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x' ></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                    
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class='bx bx-grid-alt' ></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <div class="home__img-bg">
+                        <img src="assets/img/pngwing.com.png" alt="" class="home__img">
+                    </div>
+    
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            Facebook
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            Twitter
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            Instagram
+                        </a>
+                    </div>
+    
+                    <div class="home__data">
+                        <h1 class="home__title">COGNIWAVE <br> TEAM</h1>
+                        <p class="home__description">SCULPTING FUTURE'S WAVES, TODAY</p>
+                        <span class="home__tag">DIGITALIZATION</span>
+
+                        <div class="home__btns">
+                            <a href="#products" class="button button--gray button--small">
+                                Discover
+                            </a>
+
+                            <button class="button home__button">ORDER NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== FEATURED ====================-->
+            <section class="featured section container" id="featured">
+                <h2 class="section__title">
+                    Featured
+                </h2>
+
+                <div class="featured__container grid">
+                    <article class="featured__card">
+                        <span class="featured__tag"></span>
+
+                        <img src="assets/img/Porto2.png" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Responsive Portfolio Website</h3>
+                            <span class="featured__price">Rp. 155.000</span>
+                        </div>
+
+                        <button onclick="window.location.href='#products'" class="button featured__button">GET PRODUCTS</button>
+                    </article>
+
+                    <article class="featured__card">
+                        <span class="featured__tag"></span>
+
+                        <img src="assets/img/Porto1.png" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Responsive Portfolio Website</h3>
+                            <span class="featured__price">Rp. 155.000</span>
+                        </div>
+
+                        <button onclick="window.location.href='#products'" class="button featured__button">GET PRODUCTS</button>
+                    </article>
+
+                    <article class="featured__card">
+                        <span class="featured__tag"></span>
+
+                        <img src="assets/img/landing1.png" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Responsive Landing Page</h3>
+                            <span class="featured__price">Rp. 250.000</span>
+                        </div>
+
+                        <button onclick="window.location.href='#products'" class="button featured__button">GET PRODUCTS</button>
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== STORY ====================-->
+            <section class="story section container">
+                <div class="story__container grid">
+                    <div class="story__data">
+                        <h2 class="section__title story__section-title">
+                            WHY PORTFOLIO WEBSITE?
+                        </h2>
+    
+                        <h1 class="story__title">
+                            TRY THE NEW WAY <br> TO BRAND YOUR SELF
+                        </h1>
+    
+                        <p class="story__description">
+                            In today's digital era, having a portfolio website is important because it will give a professional impression to anyone who visits it. Apart from looking professional, creating a portfolio website can also reach a wider audience.
+                        </p>
+    
+                        <a href="#products" class="button button--small">Discover</a>
+                    </div>
+
+                    <div class="story__images">
+                        <img src="assets/img/story_thumb.png" alt="" class="story__img">
+                        <div class="story__square"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PRODUCTS ====================-->
+            <section class="products section container" id="products">
+                <h2 class="section__title">
+                    Our Products
+                </h2>
+
+                <div class="products__container grid">
+                    <article class="products__card">
+                        <img src="assets/img/Porto1.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Portfolio Wbsite</h3>
+                        <span class="products__price">Rp. 155.000</span>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="assets/img/landing1.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Landing Page</h3>
+                        <span class="products__price">Rp. 225.000</span>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="assets/img/eventsite 1.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Event Website</h3>
+                        <span class="products__price">Rp. 250.000</span>
+                    </article>
+                    
+                </div>
+            </section>
+
+            <!--==================== NEWSLETTER ====================-->
+            <section class="newsletter section container"  id="newsletter">
+                <div class="newsletter__bg grid">
+                    <div>
+                        <h2 class="newsletter__title">Subscribe Our <br> Newsletter</h2>
+                        <p class="newsletter__description">
+                            Don't miss our latest update. Subscribe to our newsletter now! It's free. . .
+                        </p>
+                    </div>
+
+                    <form action="" class="newsletter__subscribe">
+                        <input type="email" placeholder="Enter your email" class="newsletter__input">
+                        <button class="button">
+                            SUBSCRIBE
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">Our information</h3>
+
+                    <ul class="footer__list">
+                        <li>COGNIWAVE</li>
+                        <li>SCULPTING FUTURE'S WAVES, TODAY</li>
+                    </ul>
+                </div>
+                <div class="footer__content">
+                    <h3 class="footer__title">About Us</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Customer Support</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Team</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Development Team</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Administration Team</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Join us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Social</h3>
+
+                    <ul class="footer__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+
+                        <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-twitter' ></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-instagram' ></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+            <span class="footer__copy" id="copyright"></span>
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class='bx bx-up-arrow-alt scrollup__icon' ></i>
+        </a>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
